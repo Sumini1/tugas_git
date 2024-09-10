@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Sumini<span> </span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Tools</a>
+            <a href="#testimonials">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Sumini</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>I specialize in building modern, responsive websites that are fast, user-friendly, and visually
+                appealing. With
+                experience in HTML, CSS, JavaScript, and frameworks like React, I’m passionate about crafting interfaces
+                that are both
+                functional and delightful for users.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./gambar/WhatsApp Image 2024-09-07 at 19.51.13.jpeg" alt="foto">
+        </div>
+    </section>
+
+
+    <!-- education -->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2012</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>I attend MA Al Amin Puloerang Lakbok Ciamis, an Islamic school, majoring in social sciences.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>I am studying at INSIP Pemalang, majoring in Islamic Religious Education under the Faculty of
+                        Education, and I am
+                        expected to graduate in 2024 with a GPA of 3.51."</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Bootcamp</h3>
+                    <p>I am participating in a front-end development bootcamp at Dibimbing.id to switch careers into IT,
+                        with the goal of
+                        working remotely."</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Bootcamp</h3>
+                    <p>I am participating in a front-end development bootcamp at Dibimbing.id to switch careers into IT,
+                        with the goal of
+                        working remotely.".</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h2 class="heading">Tools</h2>
+
+        <div class="services-container">
+            <div class="box">
+                <img src="./gambar/html.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./gambar/css.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./gambar/js.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./gambar/react.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./gambar/figma.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./gambar/nextjs.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimoniala -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Project</h2>
+
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="./gambar/restoran.png" alt="foto">
+                    <h2>Mini Project html, css, tailwind dibimbing</h2>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="./gambar/dicoding.png" alt="foto">
+                    <h2>Tugas Bootcamp FE dicoding</h2>
+
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="./gambar/login.png" alt="foto">
+                    <h2>Login Page</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span>
+        </h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="send Message" class="btn">
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Testimonials</a></li>
+        </ul>
+        <p class="copyright">@ 2023 Sumini. All Right Reserved</p>
+    </footer>
+
+
+   
+</body>
+
+</html>
